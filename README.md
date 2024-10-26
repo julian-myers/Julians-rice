@@ -33,3 +33,7 @@ Once this is done
 
 You'll probably need to restart the computer.
 
+
+Here's a what the desktop looks like:
+
+![image](image/Screenshot\ from\ 2024-10-26\ 17-14-55.png)
