@@ -1,35 +1,64 @@
-CHA BOI's RICE and NVIM config
+# CHA BOI's RICE 
 
-install neovim 
+## Requirements/Dependencies:
 
-install gnome extensions via snap or apt
+gnome extensions:
 
-    in gnome extensions install "User-Themes", "Blur my Shell", "Astra Monitor", 
-    "PaperWM"
-
-    Under System Extensions in gnome extensions disable everything besides apps menu    
-    PaperWM is kinda optional but it kinda sick too but it can be a pain to get 
-    working well and configure so its not totally necessary.
-
-Make sure you have an app called gnome tweaks: sudo apt install gnome-tweaks i 
-believe
-
-install alacritty and set as default terminal
-
-install fish if not installed already (also kinda optional), but I think you ought 
-to give it a try
-
-install plank: sudo apt install plank (I believe)
-    Make this a start up application.
-
-Once this is done
+    sudo apt install gnome-shell-extension-manager
     
-    Go to gnome tweaks app and under 'appearance':
-        
-        change cursor to 'Bibata-Modern-Ice'
-        change icons to 'Papirus'
-        change Shell to 'Catppuccin-Orange-Dark'
-        change legacy applications to 'Catppuccin-Orange-Dark'
+gnome tweaks:
+    
+    sudo add-apt-repository universe
+    sudo apt install gnome-tweaks
+
+plank: 
+
+    sudo apt install plank 
+
+
+### optional Dependencies
+alacritty:
+
+    sudo apt install alacritty
+
+neovim:
+
+    sudo apt install neovim 
+
+fish: 
+
+    sudo apt install fish 
+
+## In Gnome Extensions
+Install 'User-Themes', 'Blur my Shell", "Astra Monitor", (optional window manager)"paperWM".
+If you decide to use paperWM, disable pretty much all of the system extensions cause it will cause some conflicts with paperWM
+
+![image](image/ExtensionsManager.png)
+
+
+## In gnome tweaks app 
+Go to the appearance tab. 
+Set cursor to 'Bibata-Mdoern-Ice'
+Set icons to 'Papirus'
+Set Shell to 'Catpuccin-Orange-Dark'
+Set Legacy Applications to 'Catppuccin-Orange-Dark'
+
+
+![image](image/GnomeTweaks.png)
+
+Then go to the start up applications tab and add plank 
+
+## finishing up...
+You to move all the files in the .config file into your own which should be 
+
+    ~/.config/ 
+
+The other dot files will need to be in the home directory i.e.
+
+    ~/.themes 
+    ~/.icons 
+    ~/.fonts 
+
 
 You'll probably need to restart the computer.
 
