@@ -36,4 +36,4 @@ You'll probably need to restart the computer.
 
 Here's a what the desktop looks like:
 
-![title](image/desktop.png) 
+![image](image/desktop.png) 
